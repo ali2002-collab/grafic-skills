@@ -1,4 +1,6 @@
 import React from 'react'
+import photo1 from '../assets/profile-pictures/photo1.jpg';
+import photo2 from '../assets/photo2.jpg'
 
 const HeroSection = () => {
   return (
@@ -21,6 +23,10 @@ const HeroSection = () => {
         </p>
         <div className="flex justify-center my-10">
             <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">About Us</a>
+        </div>
+        <div className="flex mt-10 justify-center">
+          <img src={photo1} className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4" />
+          <img src={photo2} className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4" />
         </div>
       
         

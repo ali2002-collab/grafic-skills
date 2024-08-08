@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "About Us", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "Our Services", href: "#" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Our Clients", href: "#" },
 ];
 
 export const testimonials = [
@@ -99,24 +99,29 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Consultation",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Understanding your needs and objectives. ",
   },
   {
-    title: "Review code without worry",
+    title: "Design",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Crafting bespoke designs that reflect your vision. ",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Pre-Press",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Preparing print-ready files with meticulous attention to detail. ",
   },
   {
-    title: "Share work in minutes",
+    title: "Printing",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Utilizing state-of-the-art equipment for exceptional print quality. ",
+  },
+  {
+    title: "Finishing & Delivery",
+    description:
+      "Adding final touches and ensuring timely delivery. ",
   },
 ];
 

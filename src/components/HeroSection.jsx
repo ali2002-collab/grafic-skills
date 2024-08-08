@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
             One Company Limitless
-            <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
                 {" "}
                 Solution!
             </span>
@@ -22,11 +22,11 @@ const HeroSection = () => {
                 latest technological trends.
         </p>
         <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">About Us</a>
+            <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-3 px-4 mx-3 rounded-md">Our Services</a>
         </div>
         <div className="flex mt-10 justify-center">
-          <img src={photo1} className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4" />
-          <img src={photo2} className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4" />
+          <img src={photo1} className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400 mx-2 my-4" />
+          <img src={photo2} className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400 mx-2 my-4" />
         </div>
       
         

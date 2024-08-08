@@ -35,7 +35,7 @@ const Navbar = () => {
 
                     {/* Contact Us button for larger screens */}
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
+                        <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md">
                             Contact Us
                         </a>
                     </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
                         
                         {/* Contact Us button for smaller screens */}
                         <div className="flex space-x-6">
-                            <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800">
+                            <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">
                                 Contact Us
                             </a>
                         </div>

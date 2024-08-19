@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import OurServices from './components/OurServices'
 import Workflow from './components/Workflow'
+import Clients from './components/Clients'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <HeroSection />
         <OurServices />
         <Workflow />
+        <Clients />
       </div>
     </>
   )

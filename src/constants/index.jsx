@@ -1,9 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Calendar, BookOpen, FileText, Clipboard, Paperclip, Image, Folder, Tag, Barcode, HospitalIcon, Ribbon, Book } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -14,9 +9,9 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Home", href: "#" },
-  { label: "Our Services", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Our Clients", href: "#" },
+  { label: "Our Services", href: "#services" },
+  { label: "Workflow", href: "#workflow" },
+  { label: "Our Clients", href: "#clients" },
 ];
 
 export const clients = [
@@ -52,84 +47,92 @@ export const clients = [
     company: "Apple",
     image: user6,
   },
-  {
-    company: "Apple",
-    image: user6,
-  },
-  {
-    company: "Apple",
-    image: user6,
-  },
-  {
-    company: "Apple",
-    image: user6,
-  },
-  {
-    company: "Apple",
-    image: user6,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
-  {
-    company: "Netsols",
-    image: user4,
-  },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Tag />,
+    text: "Hang Tags",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Premium hang tags for branding and product information.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Calendar />,
+    text: "Calendars",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "High-quality calendar printing services with premium finishes.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BookOpen />,
+    text: "Catalogues",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Professionally designed and printed catalogues that showcase products effectively.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <FileText />,
+    text: "Brochures",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Customized brochures with premium printing and impactful designs.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Clipboard />,
+    text: "Hang Leaflets",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Eye-catching hang leaflets for promotions and product details.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <Paperclip />,
+    text: "Flyers",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "High-quality flyer printing to effectively promote your events and services.",
+  },
+  {
+    icon: <Image />,
+    text: "Posters",
+    description:
+      "Vibrant and durable posters for advertising and decoration.",
+  },
+  {
+    icon: <Folder />,
+    text: "Folders",
+    description:
+      "Custom printed folders to organize and present documents professionally.",
+  },
+  {
+    icon: <Barcode />,
+    text: "Bar Code Tags",
+    description:
+      "Precise and durable bar code tags for inventory management and product.",
+  },
+  {
+    icon: <Tag />,
+    text: "Satin Labels",
+    description:
+      "Elegant satin labels for clothing and luxury products.",
+  },
+  {
+    icon: <Ribbon />,
+    text: "Socks Bands",
+    description:
+      "Custom printed bands for packaging and branding socks.",
+  },
+  {
+    icon: <HospitalIcon />,
+    text: "Pharmaceutical Packaging",
+    description:
+      "Secure and compliant packaging solutions for pharmaceutical products.",
+  },
+  {
+    icon: <Book />,
+    text: "Literatures",
+    description:
+      "Professionally printed and designed literature for educational and promotional use.",
+  },
+  {
+    icon: <Tag />,
+    text: "Labels",
+    description:
+      "Custom labels for all types of products with high-quality printing.",
   },
 ];
 
@@ -162,26 +165,23 @@ export const checklistItems = [
 ];
 
 
-export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+export const navLinks = [
+  { href: "#", text: "Home" },
+  { href: "#services", text: "Our Services" },
+  { href: "#workflow", text: "Workflow" },
+  { href: "#clients", text: "Our Clients" },
 ];
 
-export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+export const contactLinks = [
+  { text: "+92-42-35950424" },
+  { text: "0300-8483038" },
+  { href: "https://maps.app.goo.gl/7dpBEKKgrU5Lijyq9", text: "Grafic Skills Location" },
+  { text: "grafic@graficskills.com" },
 ];
 
-export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+export const socialLinks = [
+  { href: "#", text: "Instagram" },
+  { href: "#", text: "Facebook" },
+  { href: "#", text: "Linkdin" },
+  { href: "#", text: "TikTok" },
 ];

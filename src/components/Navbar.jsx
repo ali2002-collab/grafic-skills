@@ -1,15 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
 import logo from "../assets/logo.png";
 import { navItems } from '../constants';
 
-// Navbar component to display the navigation menu
 const Navbar = () => {
-    // State to track whether the hamburger menu is open or closed
     const [hamburgerButtonOpen, setHamburgerButtonOpen] = useState(false);
 
-    // Function to toggle the hamburger menu open or closed
     const toggleNavbar = () => {
         setHamburgerButtonOpen(!hamburgerButtonOpen);
     };
@@ -28,14 +24,14 @@ const Navbar = () => {
                     <ul className="hidden lg:flex ml-14 space-x-12">
                         {navItems.map((item, index) => (
                             <li key={index}>
-                                <a href={item.href}>{item.label}</a>
+                                <a href={item.href} className="hover:text-blue-300">{item.label}</a>
                             </li>
                         ))}
                     </ul>
 
                     {/* Contact Us button for larger screens */}
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md">
+                        <a href="#footer" className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md">
                             Contact Us
                         </a>
                     </div>
@@ -54,14 +50,14 @@ const Navbar = () => {
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">
-                                    <a href={item.href}>{item.label}</a>
+                                    <a href={item.href} className="hover:text-blue-300">{item.label}</a>
                                 </li>
                             ))}
                         </ul>
                         
                         {/* Contact Us button for smaller screens */}
                         <div className="flex space-x-6">
-                            <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">
+                            <a href="#footer" className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800">
                                 Contact Us
                             </a>
                         </div>

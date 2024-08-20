@@ -21,7 +21,7 @@ const Clients = () => {
   const visibleClients = clients.slice(startIndex, startIndex + clientsPerPage);
 
   return (
-    <div className="mt-20 tracking-wide">
+    <div id="clients" className="mt-20 tracking-wide">
       <div className="text-center">
         <span className="bg-neutral-900 text-blue-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
           Our Clients

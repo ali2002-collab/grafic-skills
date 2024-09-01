@@ -6,6 +6,20 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
+import user7 from "../assets/profile-pictures/user7.jpg";
+import user8 from "../assets/profile-pictures/user8.jpg";
+import user9 from "../assets/profile-pictures/user9.jpg";
+import user10 from "../assets/profile-pictures/user10.jpg";
+import user11 from "../assets/profile-pictures/user11.jpg";
+import user12 from "../assets/profile-pictures/user12.jpg";
+import user13 from "../assets/profile-pictures/user13.jpg";
+import user14 from "../assets/profile-pictures/user14.jpg";
+import user15 from "../assets/profile-pictures/user15.jpg";
+import user16 from "../assets/profile-pictures/user16.jpg";
+import user17 from "../assets/profile-pictures/user17.png";
+import user18 from "../assets/profile-pictures/user18.png";
+import user19 from "../assets/profile-pictures/user19.png";
+import user20 from "../assets/profile-pictures/user20.png";
 
 export const navItems = [
   { label: "Home", href: "#" },
@@ -16,36 +30,84 @@ export const navItems = [
 
 export const clients = [
   {
-    company: "Nishat",
+    company: "Lays",
     image: user1,
   },
   {
-    company: "Lays",
+    company: "Pepsi",
     image: user2,
   },
   {
-    company: "Bank OF Punjab",
+    company: "Genetics Pharmaceuticals",
     image: user3,
   },
   {
-    company: "Netsols",
+    company: "Bank Of Punjab",
     image: user4,
   },
   {
-    company: "Google",
+    company: "Nizam Apparel",
     image: user5,
   },
   {
-    company: "Apple",
+    company: "Nishat",
     image: user6,
   },
   {
     company: "Apple",
-    image: user6,
+    image: user7,
   },
   {
-    company: "Apple",
-    image: user6,
+    company: "CCL",
+    image: user8,
+  },
+  {
+    company: "Ferozsons Laboratories",
+    image: user9,
+  },
+  {
+    company: "Neutro Pharma",
+    image: user10,
+  },
+  {
+    company: "Stylers",
+    image: user11,
+  },
+  {
+    company: "Marlayz Bruder",
+    image: user12,
+  },
+  {
+    company: "Cotton Web",
+    image: user13,
+  },
+  {
+    company: "Aims Hosiery",
+    image: user14,
+  },
+  {
+    company: "AR Apparel",
+    image: user15,
+  },
+  {
+    company: "Asgard 9",
+    image: user16,
+  },
+  {
+    company: "Master Textile",
+    image: user17,
+  },
+  {
+    company: "Sarena Textile",
+    image: user18,
+  },
+  {
+    company: "Kamal Ltd.",
+    image: user19,
+  },
+  {
+    company: "Softwood",
+    image: user20,
   },
 ];
 
@@ -174,7 +236,7 @@ export const navLinks = [
 
 export const contactLinks = [
   { text: "+92-42-35950424" },
-  { text: "0300-8483038" },
+  { text: "0321 4614651" },
   { href: "https://maps.app.goo.gl/7dpBEKKgrU5Lijyq9", text: "Grafic Skills Location" },
   { text: "grafic@graficskills.com" },
 ];

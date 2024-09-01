@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo.png";
+import logo from "../assets/grafic.png";
 import { navItems } from '../constants';
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center">
                     {/* Logo and brand name */}
                     <div className="flex items-center flex-shrink-0">
-                        <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
+                        <img className="h-12 w-12 mr-2" src={logo} alt="logo" />
                         <span className="text-xl tracking-tight">Grafic Skills</span>
                     </div>
                     

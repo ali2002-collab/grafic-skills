@@ -1,10 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { clients } from '../constants';
 
 const Clients = () => {
   const [startIndex, setStartIndex] = useState(0);
-  const clientsPerPage = 6;
+  const [clientsPerPage, setClientsPerPage] = useState(6);
+
+  useEffect(() => {
+    const updateClientsPerPage = () => {
+      if (window.innerWidth < 1024) {
+        setClientsPerPage(4); // 4 clients on mobile
+      } else {
+        setClientsPerPage(6); // 6 clients on larger screens
+      }
+    };
+
+    // Set initial value
+    updateClientsPerPage();
+
+    // Add event listener to update on resize
+    window.addEventListener('resize', updateClientsPerPage);
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener('resize', updateClientsPerPage);
+    };
+  }, []);
 
   const handleNext = () => {
     if (startIndex + clientsPerPage < clients.length) {
@@ -36,10 +57,16 @@ const Clients = () => {
       <div className="flex flex-wrap justify-center">
         {visibleClients.map((client, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 mb-6">
-            <div className="bg-neutral rounded-md p-6 text-md border border-neutral-800 cursor-pointer">
+            <div
+              className="bg-neutral rounded-md p-6 text-md border border-neutral-800 cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500 group"
+            >
               <div className="flex items-center">
-                <img className="w-24 h-24 mr-10 rounded-full border border-neutral-300" src={client.image} alt={client.company} />
-                <span>{client.company}</span>
+                <img
+                  className="w-24 h-24 mr-10 rounded-full border border-neutral-300"
+                  src={client.image}
+                  alt={client.company}
+                />
+                <span className="group-hover:text-white">{client.company}</span>
               </div>
             </div>
           </div>

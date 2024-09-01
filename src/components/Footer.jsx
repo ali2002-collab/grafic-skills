@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 border-t border-neutral-700 pt-4">
-        <p className="text-neutral-400 text-center">© Grafics 2024</p>
+        <p className="text-neutral-400 text-center">© Grafic Skills 2024</p>
       </div>
     </footer>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
-import logo from "../assets/grafic.png";
+import logo from "../assets/fresh-burger.png";
 import { navItems } from '../constants';
 
 const Navbar = () => {

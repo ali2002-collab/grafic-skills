@@ -36,7 +36,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {socialLinks.map((link, index) => (
               <li key={index}>
-                <a className="text-neutral-300 hover:text-white flex items-center justify-center sm:justify-start" href={link.href}>
+                <a className="text-neutral-300 hover:text-white flex items-center justify-center sm:justify-start" href={link.href} target='_blank'>
                   {link.text}
                 </a>
               </li>

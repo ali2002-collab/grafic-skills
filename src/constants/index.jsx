@@ -34,10 +34,6 @@ export const clients = [
     image: user1,
   },
   {
-    company: "Pepsi",
-    image: user2,
-  },
-  {
     company: "Genetics Pharmaceuticals",
     image: user3,
   },
@@ -54,7 +50,7 @@ export const clients = [
     image: user6,
   },
   {
-    company: "Apple",
+    company: "ChenOne",
     image: user7,
   },
   {
@@ -104,10 +100,6 @@ export const clients = [
   {
     company: "Kamal Ltd.",
     image: user19,
-  },
-  {
-    company: "Softwood",
-    image: user20,
   },
 ];
 
@@ -242,8 +234,5 @@ export const contactLinks = [
 ];
 
 export const socialLinks = [
-  { href: "#", text: "Instagram" },
-  { href: "#", text: "Facebook" },
-  { href: "#", text: "Linkdin" },
-  { href: "#", text: "TikTok" },
+  { href: "https://www.linkedin.com/company/grafic-skills/", text: "Linkedin" },
 ];
